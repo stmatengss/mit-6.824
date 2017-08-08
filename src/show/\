@@ -1,0 +1,20 @@
+package main
+import "fmt"
+
+func main() {
+		var ars []int = []string{1,2,3,4}
+		for i, j := range(ars) {
+
+				fmt.Println(i, j)
+		}
+		var ars []int = make([]int, 4)
+		for i, j := range(ars) {
+
+				fmt.Println(i, j)
+		}
+		var str string = "qweqwredsdf"
+		for i, j := range(str) {
+
+				fmt.Println(i, j)
+		}
+}
